@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+body {
+	margin: 0;
+}
+
+.btn {
+	background-color: yellow;
+	border: 1px solid black;
+	width: 160px;
+	height: 40px;
+	margin: 20px;
+	text-align: center;
+	cursor: pointer;
+}

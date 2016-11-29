@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="timeApp" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Time Directive</title>
+	
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body ng-controller="mainCtrl">
+	{{siteNotWorking}}
+
+<!-- 	<div ng-button text="btn1"></div>
+	<div ng-button text="btn2"></div>
+	<div ng-button text="btn3"></div> -->
+
+	<show-time></show-time>
+	
+	<!-- jQuery and Angular Scripts, including ui-router -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+	<!-- Custom Scripts -->
+	<script src="js/app.js"></script>
+	<script src="js/mainCtrl.js"></script>
+	<script src="js/buttonDirective.js"></script>
+	<script src="js/timeDirective.js"></script>
+	
+	
+</body>
+</html>
